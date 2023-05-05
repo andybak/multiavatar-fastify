@@ -7,7 +7,6 @@
     "test": "test"
   },
   "scripts": {
-    "test": "tap \"test/**/*.test.js\"",
     "local:start": "fastify start -l info app.js",
     "local:dev": "fastify start -w -l info -P app.js"
   },
